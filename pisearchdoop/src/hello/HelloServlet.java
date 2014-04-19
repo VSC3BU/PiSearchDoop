@@ -21,8 +21,6 @@ public class HelloServlet extends HttpServlet {
 		request.setAttribute("DATA", "HELLO!");
 		request.getRequestDispatcher("HelloJSP.jsp").forward(request, response);
 		
-		
-		
 	}
 
 
