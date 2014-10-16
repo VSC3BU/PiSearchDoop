@@ -1,0 +1,228 @@
+@CHARSET "UTF-8";
+
+/*
+* Nova HTML Template v 1.2
+*
+*/
+
+/* IMPORTS ------------------------------------------------------------*/
+
+@import url('reset.css');
+
+@import url('styled-elements.css');
+
+/* HACKS ------------------------------------------------------------*/
+
+.clear{
+	clear:both;
+	height:1px;
+}
+
+.inv{ display:none; }
+
+.alignleft{
+	float: left;
+	margin: 5px 10px 5px 0px;
+}
+
+/* GENERAL ------------------------------------------------------------*/
+
+
+body {
+	line-height: 1;
+	color: #51565b;
+	background: #f1f1f1 url(../img/noise.png);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:  100%;
+}
+
+.wrapper{
+	width: 966px;
+	margin: 0px auto;
+	position: relative;
+}
+
+#header{
+	height: 117px;
+	position: relative;
+	z-index: 10;
+	background: #2a2d30 url(../img/header-glow.png) top center no-repeat;
+}
+
+
+#main{
+	width: 100%;
+}
+
+#content{
+	min-height: 400px;
+	overflow: hidden;
+	margin-bottom: 40px;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+#logo{
+	position: absolute;
+	top: 35px;
+	left: 20px;
+	heigth:100px;
+	width:300px;
+}
+
+#content a{
+	color: #37b2d1;
+}
+
+#content p{
+	margin-bottom: 20px;
+}
+
+#content .line-divider{
+	clear: both;
+	border-bottom: 1px solid #d7d7d7;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+/* HEADLINE ------------------------------------------------------------*/
+
+#headline{
+	position: relative;
+	width: 906px;
+	margin: 20px auto 50px auto;
+}
+
+#headline>span.main{
+	display: block;
+	margin-right: 170px;
+	font-family: 'Ubuntu', arial, serif;
+	font-size: 26px;
+	line-height: 1.5em;
+	text-shadow: 1px 1px rgba(255, 255, 255, 1);
+}
+
+#headline>span.sub{
+	display: block;
+	margin-right: 170px;
+	font-size: 18px;
+	line-height: 1.5em;
+	text-shadow: 1px 1px rgba(255, 255, 255, 1);
+}
+
+#headline #link{
+	display: block;
+	position: absolute;
+	top: 15px;
+	right: 270px;
+}
+
+/* GRADATION -----------------------------------------------------------*/
+
+#gradation{
+	width: 100%;
+	padding-top: 3px;
+	margin-bottom: 0px;
+	background: #f858ef;
+	background: -webkit-gradient(linear, left top, right bottom, from(#f858ef), to(#ffe413));
+	background: -moz-linear-gradient(left,  #f858ef,  #ffe413);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f858ef', endColorstr='#ffe413', GradientType=1);
+}
+
+/* HEADERS --------------------------------------------------------*/
+
+h1,h2,h3,h4,h5,h6{
+	line-height: 1.4em;
+	font-family: 'Ubuntu', arial, serif;
+	font-weight: lighter;
+}
+
+h1{ font-size: 30px; }
+
+h2{ font-size: 28px; }
+
+h3{ font-size: 26px; }
+
+h4{ font-size: 24px; }
+
+h5{ font-size: 22px; }
+
+h6{ font-size: 20px; }
+
+/* FOOTER BOTTOM --------------------------------------------------------*/
+
+#footer{
+	position: relative;
+	width: 100%;
+	font-size: 12px;
+	line-height: 1.5em;
+	line-height: 60px;
+	color: #868686;
+	background: #222426 url(../img/bottom-shadow.png) repeat-x;
+}
+
+#footer #footer-text{
+	width: 600px;
+	overflow: hidden;
+	margin-left: 30px;
+}
+
+#footer a{
+	color: #AFEAF9;
+	text-decoration: none;
+}
+
+
+/* original --------------------------------------------------------*/
+
+#mainFrame{
+/* 	background: url(../img/slider-bg.png) repeat-x left bottom ; */
+	width: 100%;
+}
+
+#pisearchField{
+	width: 906px;
+	height: 530px;
+	margin: 0 auto;
+	padding-top:30px;
+}
+
+#captionField {
+
+}
+
+#captionField span{
+	font-size: 18px;
+
+}
+
+#inputField {
+	margin-top:5px;
+}
+
+#statusField {
+	float: left;
+	margin-top:20px;
+}
+
+#loadingField {
+	margin-top:8px;
+}
+
+#timeField {
+	margin-top:17px;
+
+}
+
+#start {
+	float: left;
+	width : 30%;
+}
+
+#finish {
+	width :auto;
+}
+
+#tableField {
+	margin-top: 20px;
+}
